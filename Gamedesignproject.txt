@@ -1,0 +1,76 @@
+- Gameplay
+
+Chase away. You basically drive away from your prosecutors.
+(maybe) When your vehicle gets damages, you can either repare your vehicle or improve it to get access to skills -- 
+
+- User Interface + Game control
+
+Starting menu: buttons play, options and map editor.
+Play -> Campaign, Load Campaign, Choose map
+Options -> Sound level (music), sound level (effects)
+Map editor -> "New", "Load", "Download"
+New & Load lead to editor with clickable button for a menu "save / load / cancel & exit"
+
+In-game interface:
+Skill buttons -> two at the bottom-left of the screen, two at the bottom-right of the screen
+Pause button at the top-right -> Pauses the game and show options "Resume", "Restart", "Exit" and a small gear for the options.
+Other than the buttons, the player will see their own vehicle at third-person insight.
+
+Game control:
+If possible, use the inclination of the smartphone to turn left or right (like a steering wheels) or to accelerate or decelerate with a move forwards or backwards.
+Skill buttons to use the skills.
+
+
+- Level design / Environement design
+
+#yolo
+
+- Characters
+
+You are the hero of the story, in possession of a very important information you need to protect to finish a war.
+
+Prosecutors, they are after your butt.
+
+Space pirates, their goal is money. They will simply drop obstacles on your way.
+
+- Story
+
+You are in possession of a very important information that shall allow a war to end. However, an organisation which interests reside in the war not to finish so fast is behind you. Their goal: rip this information away from your brain and kill you. You gatta drive for your life!
+
+- Sound
+
+Effects: mouth noises
+Background music: Redline anime music
+
+
+*****************************************************************
+
+Map editor
+
+Possibility to choose the type of the field: space, desert, ocean, sky...
+Each field has their own specificities.
+If you are good you can switch the fields in the same map to make something more original and that has more diversity.
+
+At the bottom of the screen will be categories of features to add: road pieces, decorations, add-ons, events.
+
+Road pieces:
+- straight lines
+- turning points (narrow, large...)
+- crossroads/intersections
+- bridges
+- start & finish
+- curvy roads
+Road pieces specificities:
+- the sky road pieces will be represented by lines of light as you don't want physical roads in the sky this is horrible ;
+- when you choose a piece of road it will add up itself after the previous one; though the player can also change its place afterwards and rotate it
+
+Add-ons on the road pieces:
+- holes, tunnels
+- random items to be in the way
+
+Decorations:
+- background items
+
+Events:
+- Casual mode / Pursuit mode
+- Self-made events: you can decide to have an element to spawn at a given moment in the progression of the player in the map (for example when they reach a certain place etc)
