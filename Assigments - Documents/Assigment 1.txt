@@ -1,0 +1,46 @@
+Fight Game
+
+
+Side server
+
+while (true)
+{
+	receive("New Gamer", {
+		send("Status", gamer.stats)
+	})
+	receive("Action", gamer.button, {
+		CheckIfPossible(gamer.button)
+		if (gamer.button == Success) {
+			gamer.status.hp -= 1
+			if (gamer.status.hp <= 0)
+				send("KO")
+			else
+				send(gamer.stats)
+		}
+		else {
+			gamer.status.guard = -1
+			send("ReloadStats", gamer.stats)
+		}
+	})
+}
+
+
+Gamer server
+
+status = receive("stats")
+
+if (buttonPush()) {
+	send("Action", gamer.button)
+}
+
+receive("ReloadStats", gamer.stats, {
+	UpdateStats(gamer.stats)
+})
+receive("KO", {
+	game.over()
+})
+
+
+------------------------------------------------------
+
+Transformer en c++/ LUA

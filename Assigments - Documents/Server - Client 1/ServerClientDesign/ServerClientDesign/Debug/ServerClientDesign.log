@@ -1,0 +1,9 @@
+﻿  ServerNetwork.cpp
+  ServerGame.cpp
+  ServerClientDesign.cpp
+  NetworkServices.cpp
+  ClientNetwork.cpp
+  ClientGame.cpp
+  Generating Code...
+  ServerClientDesign.vcxproj -> c:\users\vincent\documents\visual studio 2015\Projects\ServerClientDesign\Debug\ServerClientDesign.exe
+  ServerClientDesign.vcxproj -> c:\users\vincent\documents\visual studio 2015\Projects\ServerClientDesign\Debug\ServerClientDesign.pdb (Full PDB)

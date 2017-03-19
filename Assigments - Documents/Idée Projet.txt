@@ -1,0 +1,15 @@
+Environnement : Multiple (RedLine / les fous du volant)
+Objectif : Survivre (Fuir)
+Gameplay :
+* Dégat véhicule
+* Vitesse
+* Mode Infini
+* Mode histoire
+* Skills (Saut, Salto, )
+* Moto flotte
+* différente accélération (3 mode), freinage (3/4 modes)  
+* pixel art
+* 1 pilote - plus loins plus de skill
+* 1 constructeur (réparer / améliorer/ ramasser)
+* poursuivie : circulation (route), poursuivant (différent véhicule), piège
+* chemin : route, campagne, chute libre, marin, toit en toit
